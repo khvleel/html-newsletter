@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+</head>
+<style>
+html{
+    background-color: plum;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    background-color: whitesmoke;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    width: 50%;
+    position: relative;
+    width: 50%; 
+    margin: 0 auto; 
+    margin-top: 100px;
+}
+.email{
+    margin-top: 30px;
+    
+}
+.newsletter{
+    display: flex;
+    gap: 10px;
+}
+.newsletter > p{
+    margin-top: 35px;
+    text-align: justify;
+}
+a {
+  text-decoration: none;
+  color: whitesmoke;
+  border-radius: 4px;
+  background-color: black;
+  padding: 5px;
+}
+h1{
+    text-transform: capitalize;
+}
+.email > input{
+    height: 25px;
+    width: 50%;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+@media (max-width:600px;) {
+   html {
+    background-color: plum;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} 
+}
+
+</style>
+
+<body>
+<div class="container">
+    <h1><span style="color: cadetblue;">level </span><span style="color: crimson;">up</span> <span style="color: darkcyan;">your</span> <span style="color: darkred;">frontend </span>skills</h1>
+    <p>Sign up for our free newsletter to receive weekly coding challenges
+        that will help you improve your frontend development skills.
+    </p>
+    <div class="email">
+        <input type="email" placeholder="johndoe@gmail.com"> <a href="#">Subscribe</a>
+    </div>
+    
+   <div class="newsletter"> <input type="checkbox"><p>By checking this box, you agree to receiveour weekly newsletter containing coding challenges,tips, and 
+        other related content.You may unsubscribe from the newsletter at any time
+    </p>
+   </div>
+</div>    
+</body>
+</html>
